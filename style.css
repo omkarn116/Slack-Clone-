@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: purple;
+  color: white;
+  padding: 20px;
+}
+
+.chat {
+  flex: 1;
+  padding: 20px;
+}
